@@ -9,4 +9,4 @@
 `python Browser.py`
 
 # 打包
-打包好的一切dll都在bulid分支上，请切换分支
+打包好的一切dll都在build分支上，请切换分支
