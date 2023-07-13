@@ -7,3 +7,6 @@
 `pip install pywin32 pyqt5 qtpy`
 运行
 `python Browser.py`
+
+# 打包
+打包好的一切dll都在bulid分支上，请切换分支
