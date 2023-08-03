@@ -11,6 +11,8 @@
 国内用户加速下载    
 `pip install pywin32 pyqt5 qtpy PyQtWebEngine -i https://pypi.tuna.tsinghua.edu.cn/simple`   
 
+# Python 加速
+
 Windows：   
 在 windows 命令提示符（控制台）中，输入 %APPDATA%，进入此目录   
 在该目录下新建名为 pip 的文件夹，然后在其中新建文件 pip.ini。   
