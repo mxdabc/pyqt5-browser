@@ -18,7 +18,8 @@ Windows：
 在该目录下新建名为 pip 的文件夹，然后在其中新建文件 pip.ini。   
 （例如："C:\Users\Administrator\AppData\Roaming\pip\pip.ini"）   
 在文件中填入以下内容并保存（可替换为上述不同的镜像地址）：   
-```[global] 
+```
+[global] 
 index-url = http://pypi.douban.com/simple 
 [install]    
 trusted-host=pypi.douban.com
