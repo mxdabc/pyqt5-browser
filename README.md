@@ -27,4 +27,4 @@ Linux / Mac：
 文件地址为 ~/.pip/pip.conf，其余相同。   
 
 # 打包
-打包好的一切dll都在build分支上，请切换分支
+打包好的文件见releases
