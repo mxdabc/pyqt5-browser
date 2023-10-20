@@ -21,7 +21,7 @@ Windows：
 ```[global] 
 index-url = http://pypi.douban.com/simple 
 [install]    
-trusted-host=pypi.douban.com```   
+trusted-host=pypi.douban.com   ```   
 
 Linux / Mac：   
 文件地址为 ~/.pip/pip.conf，其余相同。   
