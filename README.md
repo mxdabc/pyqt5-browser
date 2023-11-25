@@ -4,12 +4,12 @@
 
 # 运行
 安装运行需要用到的库   
-`pip install pywin32 pyqt5 qtpy`   
-`pip install PyQtWebEngine`   
+```pip install pywin32 pyqt5 qtpy   
+pip install PyQtWebEngine```   
 运行   
-`python Browser.py`   
+```python Browser.py```   
 国内用户加速下载    
-`pip install pywin32 pyqt5 qtpy PyQtWebEngine -i https://pypi.tuna.tsinghua.edu.cn/simple`   
+```pip install pywin32 pyqt5 qtpy PyQtWebEngine -i https://pypi.tuna.tsinghua.edu.cn/simple```   
 
 # Python 加速
 
