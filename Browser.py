@@ -1,52 +1,15 @@
 # -*- coding: utf-8 -*-
-
+# ---------------------------
 # 基于Github中的代码修改而成，修改了一些致命问题和依赖关系
 # 将原作者设置的首页地址由hao123替换为必应
 # 原地址:https://github.com/ChengHoward/PyQt5-HowardChrome
-
-# Date:2022/08/29
+# Date:2024/02/05
 # 添加 微软雅黑字体
 # ---------------------------
 
 # 各位请在这里替换主页地址
 global webbrowser_home_page  #这里不要动!!!!!
-webbrowser_home_page = "https://cn.bing.com/"   # 各位请在这里替换主页地址
-
-
-# 原作者Readme.md内容
-
-
-# PyQt5-HowardChrome
-# 这是由Howard开发一半的Qt浏览器
-## 正在学习pyqt5的同学可以拿去研究研究，多多改进。。
-### 桌面开发用pyqt真的不建议，但是在Python下已经很不错了。
-
-# 原文件license
-
-# This is free and unencumbered software released into the public domain.
-# 
-# Anyone is free to copy, modify, publish, use, compile, sell, or
-# distribute this software, either in source code form or as a compiled
-# binary, for any purpose, commercial or non-commercial, and by any
-# means.
-# 
-# In jurisdictions that recognize copyright laws, the author or authors
-# of this software dedicate any and all copyright interest in the
-# software to the public domain. We make this dedication for the benefit
-# of the public at large and to the detriment of our heirs and
-# successors. We intend this dedication to be an overt act of
-# relinquishment in perpetuity of all present and future rights to this
-# software under copyright law.
-# 
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-# IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-# OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-# ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-# OTHER DEALINGS IN THE SOFTWARE.
-# 
-# For more information, please refer to <https://unlicense.org>
+webbrowser_home_page = "https://app.imxd.top/cgi-bin/jumpbing.html"   # 各位请在这里替换主页地址
 
 import sys
 import win32api
