@@ -1,16 +1,19 @@
-; ½Å±¾ÓÉ Inno Setup ½Å±¾Ïòµ¼ Éú³É£¡
-; ÓĞ¹Ø´´½¨ Inno Setup ½Å±¾ÎÄ¼şµÄÏêÏ¸×ÊÁÏÇë²éÔÄ°ïÖúÎÄµµ£¡
+; è„šæœ¬ç”± Inno Setup è„šæœ¬å‘å¯¼ ç”Ÿæˆï¼
+; æœ‰å…³åˆ›å»º Inno Setup è„šæœ¬æ–‡ä»¶çš„è¯¦ç»†èµ„æ–™è¯·æŸ¥é˜…å¸®åŠ©æ–‡æ¡£ï¼
+; æ­¤è„šæœ¬ä»…ä¾›å‚è€ƒï¼Œè¯·å‹¿ç›´æ¥ä½¿ç”¨æ­¤è„šæœ¬ï¼Œå¦åˆ™APPå°†ä¼šæœ‰é”™è¯¯çš„æ‰“åŒ…ï¼
+; Inno Setup è„šæœ¬ Fix
+; Date:2024/02/05
 
 #define MyAppName "Browser"
 #define MyAppVersion "1.0"
 #define MyAppPublisher "mxdabc"
-#define MyAppURL "https://browser.mxdyeah.top/"
+#define MyAppURL "https://app.imxd.top/cgi-bin/pyqt5-browser.html"
 #define MyAppExeName "Browser.exe"
 
 [Setup]
-; ×¢: AppIdµÄÖµÎªµ¥¶À±êÊ¶¸ÃÓ¦ÓÃ³ÌĞò¡£
-; ²»ÒªÎªÆäËû°²×°³ÌĞòÊ¹ÓÃÏàÍ¬µÄAppIdÖµ¡£
-; (ÈôÒªÉú³ÉĞÂµÄ GUID£¬¿ÉÔÚ²Ëµ¥ÖĞµã»÷ "¹¤¾ß|Éú³É GUID"¡£)
+; æ³¨: AppIdçš„å€¼ä¸ºå•ç‹¬æ ‡è¯†è¯¥åº”ç”¨ç¨‹åºã€‚
+; ä¸è¦ä¸ºå…¶ä»–å®‰è£…ç¨‹åºä½¿ç”¨ç›¸åŒçš„AppIdå€¼ã€‚
+; (è‹¥è¦ç”Ÿæˆæ–°çš„ GUIDï¼Œå¯åœ¨èœå•ä¸­ç‚¹å‡» "å·¥å…·|ç”Ÿæˆ GUID"ã€‚)
 AppId={{DEADCC1E-CB6A-49E7-AD51-5ADAEB36081B}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
@@ -22,7 +25,8 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 DisableProgramGroupPage=yes
 LicenseFile=h:\w10Users\1\Downloads\LICENSE.txt
-; ÒÔÏÂĞĞÈ¡Ïû×¢ÊÍ£¬ÒÔÔÚ·Ç¹ÜÀí°²×°Ä£Ê½ÏÂÔËĞĞ£¨½öÎªµ±Ç°ÓÃ»§°²×°£©¡£
+; ä»¥ä¸‹è¡Œå–æ¶ˆæ³¨é‡Šï¼Œä»¥åœ¨éç®¡ç†å®‰è£…æ¨¡å¼ä¸‹è¿è¡Œï¼ˆä»…ä¸ºå½“å‰ç”¨æˆ·å®‰è£…ï¼‰ã€‚
+; æ³¨é‡Šæ˜¯å°å†™åˆ†å·ï¼Œä¸è¦å†™é”™äº†
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
 OutputDir=h:\w10Users\1\Downloads
@@ -117,7 +121,7 @@ Source: "h:\w10Users\1\Documents\code\pythonOUT\Browser\VCRUNTIME140_1.dll"; Des
 Source: "h:\w10Users\1\Documents\code\pythonOUT\Browser\win32api.pyd"; DestDir: "{app}"; Flags: ignoreversion
 Source: "h:\w10Users\1\Documents\code\pythonOUT\Browser\win32trace.pyd"; DestDir: "{app}"; Flags: ignoreversion
 Source: "h:\w10Users\1\Documents\code\pythonOUT\Browser\win32ui.pyd"; DestDir: "{app}"; Flags: ignoreversion
-; ×¢Òâ: ²»ÒªÔÚÈÎºÎ¹²ÏíÏµÍ³ÎÄ¼şÉÏÊ¹ÓÃ¡°Flags: ignoreversion¡±
+; æ³¨æ„: ä¸è¦åœ¨ä»»ä½•å…±äº«ç³»ç»Ÿæ–‡ä»¶ä¸Šä½¿ç”¨â€œFlags: ignoreversionâ€
 
 [Icons]
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
